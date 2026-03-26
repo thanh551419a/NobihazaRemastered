@@ -1,0 +1,66 @@
+{
+  "componentDefaults": {
+    "Health": {
+      "maxHP": 50
+    },
+
+    "Armor": {
+      "value": 10
+    },
+
+    "Movement": {
+      "speed": 100
+    },
+
+    "Attack": {
+      "damage": 5,
+      "attackSpeed": 1.0
+    }
+  },
+
+  "entities": {
+    "PLAYER": {
+      "Health": {
+        "maxHP": 100
+      },
+
+      "Movement": {
+        "speed": 200
+      },
+
+      "Attack": {
+        "damage": 15,
+        "attackSpeed": 1.2
+      }
+    },
+
+    "ZOMBIE": {
+      "Movement": {
+        "speed": 120
+      },
+
+      "Attack": {
+        "damage": 8
+      }
+    },
+
+    "BOSS": {
+      "Health": {
+        "maxHP": 500
+      },
+
+      "Armor": {
+        "value": 25
+      },
+
+      "Movement": {
+        "speed": 80
+      },
+
+      "Attack": {
+        "damage": 40,
+        "attackSpeed": 0.6
+      }
+    }
+  }
+}
